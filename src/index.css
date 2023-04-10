@@ -1,5 +1,5 @@
 * {
-  box-sizing: border;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -94,15 +94,12 @@
 
   .add-score-box {
     order: 2;
+    width: 50%;
   }
 
   .recent-score-box {
     margin-top: 0;
     order: 1;
-  }
-
-  .add-score-box {
-    width: 50%;
   }
 
   .add-score-h2 {
