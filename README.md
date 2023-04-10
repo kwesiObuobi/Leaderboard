@@ -9,7 +9,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -43,19 +42,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Displays a list of tasks needed to be done**
-- **Allows users to add to the list**
-- **Allows users to remove from the list**
-- **Tasks can be marked as 'completed'**
-- **Multiple items can be removed at the same time when they're complete**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://kwesiobuobi.github.io/to-do-list/dist)
+- **Displays scores submitted by different users**
+- **Allows users to submit scores**
+- **Uses gitflow workflow**
+- **Sends and receives data from an API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
