@@ -87,9 +87,9 @@ git clone https://github.com/kwesiObuobi/Leaderboard.git
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Reordering items (dragging and dropping)**
-- [ ] **Addint time and reminders to tasks**
-- [ ] **Adding sounds for reminders (like an alarm)**
+- [ ] **Fetching of real scores from the API service**
+- [ ] **Users can add their scores and they'll be saved in realtime**
+- [ ] **A relatively more appealing user interface**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
