@@ -7,36 +7,51 @@
   <title>Leaderboard</title>
 </head>
 <body>
-  <h1>Leaderboard</h1>
+  <div class="site-wrapper">
 
-  <div class="recent-score-box">
-    <div class="recent-score-and-btn">
-      <h2 class="recent-score-h2">Recent scores</h2>
-      <button class="recent-score-btn">Refresh</button>
-    </div>
-    <ul class="recent-score-ul">
-      <li class="score-li">
-        <span class="user">Name: </span>
-        <span class="score">100</span>
-      </li>
-      <li class="score-li">
-        <span class="user">Name: </span>
-        <span class="score">100</span>
-      </li>
-      <li class="score-li">
-        <span class="user">Name: </span>
-        <span class="score">100</span>
-      </li>
-      <li class="score-li">
-        <span class="user">Name: </span>
-        <span class="score">100</span>
-      </li>
-      <li class="score-li">
-        <span class="user">Name: </span>
-        <span class="score">100</span>
-      </li>
-    </ul>
-  </div>
-  <div class="add-score-box"></div>
+    <h1 id="leaderboard-header">Leaderboard</h1>
+
+    <div class="display">
+
+      <div class="add-score-box">
+        <h2 class="add-score-h2">Add your score</h2>
+        <form class="form">
+          <input type="text" name="name" id="name" class="name">
+          <input type="number" class="input-score" id="input-score" name="input-score">
+          <button class="submit">Submit</button>
+        </form>
+      </div>
+
+      <div class="recent-score-box">
+        <div class="recent-score-and-btn">
+          <h2 class="recent-score-h2">Recent scores</h2>
+          <button class="refresh">Refresh</button>
+        </div>
+        <ul class="recent-score-ul">
+          <li class="score-li">
+            <span class="user">Name: </span>
+            <span class="score">100</span>
+          </li>
+          <li class="score-li">
+            <span class="user">Name: </span>
+            <span class="score">100</span>
+          </li>
+          <li class="score-li">
+            <span class="user">Name: </span>
+            <span class="score">100</span>
+          </li>
+          <li class="score-li">
+            <span class="user">Name: </span>
+            <span class="score">100</span>
+          </li>
+          <li class="score-li">
+            <span class="user">Name: </span>
+            <span class="score">100</span>
+          </li>
+        </ul>
+      </div>
+
+    </div> <!-- end display -->
+  </div> <!-- end site-wrapper -->
 </body>
 </html>
