@@ -66,7 +66,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 ```
-git clone https://github.com/kwesiObuobi/to-do-list.git
+git clone https://github.com/kwesiObuobi/Leaderboard.git
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
