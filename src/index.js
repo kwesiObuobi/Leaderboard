@@ -2,6 +2,8 @@ import './index.css';
 import addScore from './modules/addScore.js';
 import showScores from './modules/showScores.js';
 
+showScores();
+
 const refresh = document.querySelector('.refresh');
 refresh.addEventListener('click', () => showScores());
 

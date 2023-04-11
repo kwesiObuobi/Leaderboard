@@ -16,6 +16,6 @@ export default async () => {
       `;
     });
   } catch (error) {
-    console.log(error);
+    throw new Error('Data could not be fetched');
   }
 };
