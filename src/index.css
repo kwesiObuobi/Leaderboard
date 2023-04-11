@@ -1,18 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background: url(/src/images/board.png);
 }
 
 .site-wrapper {
   padding: 0.5rem;
 }
 
+.header {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+div.badge {
+  background: url(/src/images/badge.png);
+  width: 2rem;
+  height: 2rem;
+  background-size: cover;
+}
+
 #leaderboard-header {
-  margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 .display {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
 }
@@ -20,6 +43,8 @@
 .add-score-box {
   display: flex;
   flex-direction: column;
+  padding-bottom: 2.5rem;
+  border-bottom: solid 2px white;
 }
 
 .add-score-h2 {
@@ -40,9 +65,18 @@
   border-radius: 8px;
 }
 
+.form input {
+  background-color: rgba(225, 225, 225, 0.3);
+  outline: white;
+  border: solid 1px white;
+}
+
 .submit {
   width: 50%;
   align-self: flex-end;
+  background-color: rgba(225, 225, 225, 0.3);
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .recent-score-box {
@@ -62,6 +96,9 @@
 .refresh {
   padding: 0.5rem;
   border-radius: 8px;
+  background-color: rgba(225, 225, 225, 0.3);
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .recent-score-ul {
@@ -75,26 +112,39 @@
   justify-content: space-between;
 }
 
+.score-li:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .score-li:nth-of-type(even) {
   background-color: #ddd;
 }
 
 @media only screen and (min-width: 768px) {
-  #leaderboard-header {
+  /* #leaderboard-header {
     width: 70%;
     margin: 1rem auto 3rem;
+  } */
+
+  .header {
+    justify-content: flex-start;
+    width: 70%;
+    margin: 0 auto;
   }
 
   .display {
     flex-direction: row;
     width: 70%;
-    margin: 0 auto;
+    margin: 2rem auto 0;
     gap: 6rem;
   }
 
   .add-score-box {
     order: 2;
     width: 50%;
+    border: solid 2px white;
+    padding: 1rem;
+    border-radius: 16px;
   }
 
   .recent-score-box {

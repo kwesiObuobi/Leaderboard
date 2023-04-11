@@ -14,6 +14,5 @@ export default async (user, score) => {
 
   const result = await response.json();
 
-  // return Promise.resolve(result);
   return result;
 };
