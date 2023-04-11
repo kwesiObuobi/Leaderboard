@@ -14,4 +14,5 @@ form.addEventListener('submit', (e) => {
   const score = document.querySelector('#input-score').value;
   addScore(name, score);
   form.reset();
+  showScores();
 });

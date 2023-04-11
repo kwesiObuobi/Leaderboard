@@ -43,7 +43,7 @@ div.badge {
 .add-score-box {
   display: flex;
   flex-direction: column;
-  padding-bottom: 3rem;
+  padding-bottom: 2.5rem;
   border-bottom: solid 2px white;
 }
 
@@ -65,9 +65,18 @@ div.badge {
   border-radius: 8px;
 }
 
+.form input {
+  background-color:rgba(225, 225, 225, 0.3);
+  outline: white;
+  border: solid 1px white;
+}
+
 .submit {
   width: 50%;
   align-self: flex-end;
+  background-color:rgba(225, 225, 225, 0.3);
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .recent-score-box {
@@ -100,31 +109,50 @@ div.badge {
   justify-content: space-between;
 }
 
+.score-li:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .score-li:nth-of-type(even) {
   background-color: #ddd;
 }
 
 @media only screen and (min-width: 768px) {
-  #leaderboard-header {
+  /* #leaderboard-header {
     width: 70%;
     margin: 1rem auto 3rem;
+  } */
+
+  .header {
+    justify-content: flex-start;
+    width: 70%;
+    margin: 0 auto;
   }
 
   .display {
     flex-direction: row;
     width: 70%;
-    margin: 0 auto;
+    margin: 2rem auto 0;
     gap: 6rem;
   }
 
   .add-score-box {
     order: 2;
     width: 50%;
+    border: solid 2px white;
+    padding: 1rem;
+    border-radius: 16px;
   }
 
   .recent-score-box {
     margin-top: 0;
     order: 1;
+  }
+
+  .refresh {
+    background-color: rgba(225, 225, 225, 0.3);
+    font-weight: bold;
+    font-size: 1.2rem;
   }
 
   .refresh:hover,
