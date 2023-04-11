@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  background: url(/src/images/board.png);
+}
+
 .site-wrapper {
   padding: 0.5rem;
 }
