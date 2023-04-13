@@ -121,11 +121,6 @@ div.badge {
 }
 
 @media only screen and (min-width: 768px) {
-  /* #leaderboard-header {
-    width: 70%;
-    margin: 1rem auto 3rem;
-  } */
-
   .header {
     justify-content: flex-start;
     width: 70%;
